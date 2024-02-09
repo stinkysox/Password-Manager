@@ -1,0 +1,102 @@
+* {
+  font-family: 'roboto';
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.cyan {
+  background-color: cyan;
+}
+
+.magenta {
+  background-color: magenta;
+}
+
+.lime {
+  background-color: lime;
+}
+
+.pink {
+  background-color: pink;
+}
+
+.teal {
+  background-color: teal;
+}
+
+.lavender {
+  background-color: lavender;
+}
+
+.item {
+  display: flex;
+  width: 300px;
+  border: 1px solid lightgray;
+  align-items: center;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 10px;
+  color: white;
+  height: 130px;
+}
+
+.details-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 6px;
+}
+
+.firstname-logo {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.delete-icon {
+  height: 30px;
+  margin: 6px;
+}
+
+.delete-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.text-contianer {
+  padding: 6px;
+  margin-left: 6px;
+}
+
+.stars-image {
+  height: 12px;
+}

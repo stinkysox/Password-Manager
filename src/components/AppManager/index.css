@@ -1,0 +1,178 @@
+* {
+  font-family: 'roboto';
+}
+
+.bg-container {
+  min-height: 100vh;
+  background-color: #c3caea;
+  padding: 12px;
+}
+
+.container {
+  margin: 16px;
+}
+.app-logo {
+  height: 60px;
+  margin: 12px;
+}
+
+.card-container {
+  display: flex;
+  background-color: #5763a5;
+  padding: 30px;
+  justify-content: space-evenly;
+  border-radius: 10px;
+}
+
+.search-input {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 4px;
+  border-radius: 6px;
+  width: 320px;
+  margin: 12px;
+}
+
+.search-input-image {
+  height: 28px;
+  margin: 4px;
+}
+
+.input-el {
+  border: none;
+  padding: 10px;
+  border-left: 1px solid lightgray;
+}
+
+.lock-image {
+  height: 340px;
+  margin: 16px;
+}
+
+.inputs-container {
+  background-color: #454f84;
+  padding: 12px;
+  border-radius: 10px;
+  min-height: 300px;
+}
+
+.add-password {
+  font-size: 18px;
+  color: white;
+  margin: 8px;
+}
+
+.submit-btn {
+  background-color: #0b69ff;
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 6px;
+  width: 60px;
+}
+
+.submit-btn-container {
+  text-align: right;
+
+  margin-right: auto;
+}
+
+.bottom-container {
+  background-color: #5763a5;
+  height: 460px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.password-count-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.bottom-search-container {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 2px;
+  border-radius: 6px;
+
+  margin: 12px;
+}
+.bottom-search-image {
+  height: 28px;
+  margin: 6px;
+}
+
+.bottom-input-el {
+  border: none;
+  border-left: 1px solid lightgray;
+}
+
+.bottom-para {
+  font-weight: 500;
+  font-size: 18px;
+  color: white;
+}
+
+.show-password-container {
+  text-align: right;
+  padding: 12px;
+}
+
+.checkbox-el {
+  transform: scale(1.8);
+  margin: 4px;
+}
+.label-el {
+  font-weight: 500;
+  color: white;
+  margin: 4px;
+}
+
+.no-password-image {
+  height: 200px;
+}
+
+.list-container {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.span {
+  padding: 4px;
+  border: 1px solid white;
+  margin: 4px;
+  border-radius: 6px;
+}
+
+.your-passwords {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .card-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .search-input {
+    width: 80%;
+  }
+
+  .input-el {
+    width: 60%;
+  }
+
+  .image-container {
+    text-align: center;
+    order: -1;
+  }
+
+  .lock-image {
+    height: 220px;
+  }
+}
